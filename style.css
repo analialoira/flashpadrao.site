@@ -1,0 +1,287 @@
+@font-face {
+	/*font-family: Gotham Rounded;*/
+	src: url("font.otf") format("opentype");
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	/*font-family: Gotham Rounded;*/
+}
+
+body {
+	padding-top: 0 !important;
+    padding-bottom: 0 !important;	
+}
+
+.bg-fundo{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: url("bg-mobile.png") no-repeat fixed center;
+	background-size: cover;
+}
+
+.bonus-icon{
+  width: 1.25em;
+  font-size: 30px;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+.a-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: inherit; 
+      vertical-align: baseline;
+      color: black !important; 
+      outline: 0; 
+      line-height: 1; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      width: 100%; padding-left: 0!important; padding-right: 0!important; 
+      margin-bottom: 10px; 
+      padding: 22px 44px; border-color: #ff5535; border-width: 0px; 
+      border-radius: 6px; 
+      /*background: linear-gradient(to bottom, #ff6600 0%, #ff5535 100%); */
+      box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+      text-decoration: none!important;
+    }
+    .span-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      margin: 0; 
+      border: 0; 
+      font: inherit;
+      vertical-align: baseline;
+      display: block; 
+      position: relative; 
+      z-index: 1; 
+      padding: 0 15px; 
+      white-space: normal; 
+      font-size: 25px;
+      color: #ffffff; 
+      font-family: Oswald; 
+      font-weight: bold; 
+      text-shadow: #000000 0px 1px 0px;
+      text-decoration: none;
+    }
+    .span-btn2 {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: inherit; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 15px; 
+      color: #f5e051; 
+      font-family: Cabin; 
+      font-weight: bold; 
+      font-style: italic;
+      text-shadow: #000000 0px 1px 0px;
+    }
+
+.botaoMobile{
+  width: 100% !important;
+}
+
+.container {
+	width: 700px;
+	max-width: 90%;
+}
+
+.black {
+	background-color: #fedead;
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 0 10px 2px;
+}
+
+.yeah-r{
+  flex-wrap: wrap !important;
+}
+
+.answer {
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	gap: 10px;
+}
+
+.btn {
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 30px;
+	background-color: #f7ce6a;
+	outline: none;
+	color: black;
+	text-decoration: none;
+}
+
+.black h1 {
+	color: none;
+}
+
+.black p {
+	font-size: 18px;
+	color: white;
+}
+
+.padding-thumb{
+   	padding-right: 6px !important;
+   	padding-left: 6px !important;
+ }
+
+/*body {font-family: 'Sawarabi Gothic', serif;}*/
+	.pngflag {height: 16px; border: 1px solid #C0C0C0;}
+/* Colors */
+
+.accent-text {
+    color: #FF4081 !important;
+}
+.accent-color {
+    background-color: #FF4081 !important;
+}
+.accent-border {
+    border-color: #FF4081 !important;
+}
+.primary-text {
+    color: #2196F3 !important;
+}
+.primary-color {
+    background-color: #2196F3 !important;
+}
+.primary-border {
+    border-color: #2196F3 !important;
+}
+.grey-blue {
+    background-color: #f1f4f5;
+}
+.text-color {
+    color: #76838f !important;
+}
+.text-light {
+    font-weight: 400;
+    color: #B2B2B4;
+}
+.transparent {
+    background-color: transparent !important;
+}
+.no-shadow {
+    box-shadow: none;
+}
+
+.margin-thumb{
+  	margin-bottom: 15px !important;
+ }
+	
+.finished-text {
+    color: #2196F3 !important;
+}
+.finished-color {
+    background-color: #2196F3 !important;
+}
+.finished-border {
+    border-color: #2196F3 !important;
+}
+
+/*@media (min-width: 576px)*/
+.jumbotron {
+    padding: 1rem 2rem !important;    
+    background-color: #fedead !important;
+    border-radius: 2.3rem !important; 
+    box-shadow: 0px 2px 21px 9px black !important;    
+    color: white !important;
+    border-bottom: none !important;
+}
+
+.black-text{
+	color:  black;
+}
+
+.corPergunta{
+	color:  darkorange;
+}
+
+.btn, .btn-primary{
+	background-color: #FF9C08 !important;
+	border:  none !important;
+}
+
+@media only screen and (max-width: 387px) and (max-height: 839px) {
+  .container {
+    margin-top: 50% !important;
+  }
+  h4{
+  	font-size: 1.3rem !important;
+  }
+  h3{
+  	font-size: 1.5rem !important;
+  }
+  .btn, .btn-primary{
+  	padding: 0.4rem 1.3rem !important;
+  	font-size: 1.2em !important;
+
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .txt-btn-desk{
+   	font-size: 25px !important;
+  }
+  .img-desk{
+  	width: 90% !important;
+  }
+  .botaoMobile{
+   	width: 79% !important;
+  }
+  .margin-thumb{
+   	margin-bottom: 20px !important;
+  }
+}
+@media only screen and (min-width: 576px){
+  .padding-thumb{
+   	padding-right: 32px !important;
+   	padding-left: 24px !important;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .botaoMobile{
+   	width: 70% !important;
+  }
+  .img-desk{
+  	width: 76% !important;
+  }
+  .bg-fundo{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: url("bg-desktop.png") no-repeat fixed center !important;
+	background-size: cover;
+}
+}
+
+@media only screen and (min-width: 1197px){
+  .botaoMobile{
+   	width: 70% !important;
+  }
+  .img-desk{
+  	width: 60% !important;
+  }
+
+}
